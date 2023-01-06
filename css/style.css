@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo {
+  background-color: #fab925;
+  font-family: "Times New Roman", Times, serif;
+}
+.navBar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  list-style: none;
+}
+.navBar img {
+  height: 40px;
+  width: 40px;
+  /* margin: 10px; */
+}
+.navBar li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.marginDerecha {
+  margin-right: 20px;
+}
+.boton {
+  border-radius: 40px;
+}
+.botonIniciarSesion {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  float: right;
+  right: 100px;
+  background-color: #ec6464;
+  border-radius: 100px;
+}
+/* .productosFondo{
+    width: 100%;
+} */
+.imagen1 {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 72vh;
+  background: url(../assets/img/banner.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  bottom: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen1 h1 {
+  font-size: 60px;
+}
+.buscador {
+  padding: 10px 30px;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  width: 100%;
+}
+.topProductos {
+  padding: 50px;
+}
+.topProductos h1 {
+  margin-bottom: 20px;
+}
+.topProductos img {
+  width: 400px;
+  height: 300px;
+}
+.topProductos h2 {
+  display: inline-block;
+}
+.listaProductos {
+  display: flex;
+  justify-content: space-around;
+}
+.producto img {
+  margin-bottom: 10px;
+}
+.mejoresProductos {
+  padding: 50px;
+  
+}
+.mejoresProductos h1{
+  margin-bottom: 40px;
+}
+.containerProductosSeccion {
+  display: flex;
+  justify-content: space-around;
+}
+.productosSeccion {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.productosSeccion li {
+  margin-bottom: 40px;
+}
+.deliverySeccion {
+  padding: 50px;
+}
+.banner2 {
+  margin: 20px 140px;
+}
+.titulo {
+  margin: 20px 140px;
+}
+.titulo h1 {
+  margin-bottom: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ec6464;
+  padding: 50px 20px;
+}
+.listaFooter {
+  margin: 10px;
+  color: white;
+  list-style: none;
+}
+.listaFooter li {
+  margin-bottom: 10px;
+}
+.tituloListaFooter {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* .fondo img{
+    height: 40px;
+    width: 40px;
+}
+.fondo{
+    background-color: #fab925 ;
+}
+.navBar{
+    background-color: white;
+    padding: 25px;
+} */
