@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fab925;
+}
+nav{
+  background-color: white;
+}
+img{
+  margin: 20px 20px 20px 40px;
+}
