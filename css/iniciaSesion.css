@@ -30,9 +30,15 @@ img{
     border-radius: 40px;
     display: block;
 }
+.IniciaSesionBotones{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
 .boton2{
   color: white;
   text-decoration: none;
   font-weight: 600;
 }
+
   
