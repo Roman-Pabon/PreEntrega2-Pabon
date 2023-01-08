@@ -21,3 +21,14 @@ img{
     margin-left: 40px;
     border-radius: 20px;
 }
+.form-check{
+  margin: 40px 20px;
+}
+.label{
+  font-size: 50px;
+}
+.boton{
+  display: flex;
+  justify-content: right;
+  margin: 40px;
+}
