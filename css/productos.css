@@ -12,6 +12,11 @@ nav{
 img{
   margin: 20px 20px 20px 40px;
 }
+.imagen2{
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
 .titulo h1{
   margin: 40px;
 }
@@ -31,4 +36,8 @@ img{
   display: flex;
   justify-content: right;
   margin: 40px;
+}
+.imagen1{
+  width: 250px;
+  height: 300px;
 }
