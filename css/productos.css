@@ -41,3 +41,11 @@ img{
   width: 250px;
   height: 300px;
 }
+@media (max-width:390px){
+  h1{
+    font-size: 20px;
+  }
+  .buscador{
+    width: 310px;
+  }
+}
