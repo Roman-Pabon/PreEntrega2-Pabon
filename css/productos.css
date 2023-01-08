@@ -15,3 +15,9 @@ img{
 .titulo h1{
   margin: 40px;
 }
+.buscador{
+  background-color: #ec6464;
+    width: 30%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
