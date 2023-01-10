@@ -3,6 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+.bolder {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.bolder:hover {
+  font-weight: 600;
+  font-size: 1rem;
+}
 body{
   background-color: #fab925;
 }
@@ -20,9 +34,13 @@ img{
 .titulo h1{
   margin: 40px;
 }
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+}
 .buscador{
   background-color: #ec6464;
-    width: 30%;
+    /* width: 30%; */
     margin-left: 40px;
     border-radius: 20px;
 }
